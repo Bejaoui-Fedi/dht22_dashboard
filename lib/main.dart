@@ -4,8 +4,8 @@ import 'package:fl_chart/fl_chart.dart';
 import 'package:intl/intl.dart';
 import 'dart:async';
 
-const String supabaseUrl = 'https://ixwlwdortlfktwzorxzm.supabase.co';
-const String supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Iml4d2x3ZG9ydGxma3R3em9yeHptIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTE0NTg1NTAsImV4cCI6MjA2NzAzNDU1MH0.AlPvT60fL_7ydB-PzjU04KEAdMM6QW-Amn5KQKvZFx4';
+const String supabaseUrl = '********************';
+const String supabaseAnonKey = '*******************';
 
 class SensorData {
   final int id;
