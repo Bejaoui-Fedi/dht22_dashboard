@@ -2,24 +2,26 @@
 
 Application mobile Flutter de supervision d’un capteur DHT22. Elle affiche les dernières mesures de température et d’humidité, leurs tendances et un historique alimenté par Supabase.
 
-## Captures d’écran
+## Modules et interfaces
 
-### Tableau de bord
+### 1. Tableau de bord
 
-Les cartes affichent les dernières valeurs mesurées ainsi que les alertes éventuelles.
+L’écran principal met en évidence les dernières valeurs de température et d’humidité ainsi que les alertes éventuelles. Les mesures sont actualisées automatiquement toutes les 30 secondes, avec une option d’actualisation manuelle.
 
-![Tableau de bord DHT22 avec température et humidité](screenshots/dashboard-overview.png)
+<p align="center"><img src="screenshots/dashboard-overview.png" alt="Tableau de bord DHT22 avec les mesures de température et d’humidité" width="560"></p>
+<p align="center"><em>Vue d’ensemble des mesures récentes et de l’état du capteur.</em></p>
 
-### Tendances et historique
+### 2. Tendances et historique
 
-La courbe compare les mesures récentes et l’historique présente les relevés horodatés.
+La vue historique permet de comparer les relevés récents sur un graphique et de consulter les mesures horodatées. Le graphique utilise jusqu’à 20 relevés de la fenêtre chargée et la liste affiche les 10 derniers.
 
-![Graphique des tendances et historique des mesures DHT22](screenshots/history-trends.png)
+<p align="center"><img src="screenshots/history-trends.png" alt="Graphique des tendances et historique des mesures DHT22" width="560"></p>
+<p align="center"><em>Tendances de température et d’humidité, avec historique des relevés.</em></p>
 
 ## Fonctionnalités
 
 - Affichage de la dernière température et de la dernière humidité.
-- Indication des alertes de température, d’humidité et d’état du relevé.
+- Indication des alertes de température, d’humidité et de l’état du relevé.
 - Actualisation automatique toutes les 30 secondes et bouton d’actualisation manuelle.
 - Courbe de tendance comparant température et humidité sur jusqu’à 20 relevés de la fenêtre chargée.
 - Historique des 10 derniers relevés avec date et heure.
